@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* Title-begins */
+.title{
+    width: 100%;
+    height: 40px;
+    background-color: #0CA486;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-sub{
+    width: 84%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-sub-box1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+.title-sub-box2{
+    width: 40%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.title-sub-box3{
+    width: 15%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.united-states{
+    width: 15%;
+    height: 70%;
+}
+.line{
+    width: 2px;
+    height: 30px;
+    background-color: #56BEAA;
+}
+.Drop-down{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+/* Title-ends */
+/* Navigation bar-begins */
+.navigation-1{
+    height: 85px;
+    width: 100%;
+}
+.navigation-1-sub{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.div-1 {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    width: 80%;
+}
+.div-1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.location-box{
+    display: flex;
+    align-items: center;
+    border: 2px solid #ECECEC;
+    margin-right: 8px;
+    height: 50px;
+    border-radius:6px ;
+}
+.location{
+    color: #0CA587;
+    font-weight: 600;
+}
+.location-icon{
+    font-size: 25px;
+    color: black;
+}
+.search{
+    width: 30%;
+    font-size: 30px;
+    padding-left: 8px;
+}
+.search-box{
+    border: 2px solid #ECECEC;
+    border-radius:6px ;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Search-box{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    font-size:16px ;
+    padding: 8px;  
+}
+.search-button{
+    width: 25%;
+    background-color: #feb802;
+    border: none;
+    text-decoration: none;
+    height: 50px;
+    width: 120px;
+    border-radius:6px ;
+    font-size: 18px;
+}
+.div-4{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cclogo{
+    font-size: 45px;
+}
+.cc{
+    width: 80%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    font-size: 15px;
+    gap: 8px;
+}
+.line1{
+    width: 2px;
+    height: 30px;
+    background-color: #4b5468;
+}
+.nav-ic{
+    size: 40px;
+}
