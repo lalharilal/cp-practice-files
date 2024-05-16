@@ -2349,10 +2349,14 @@ body{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .service-div{
+        width: 100%;
+    }
     .footer{
         height: 150vh;
     }
     .main-footer{
+        height: 90%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin-bottom:20px ;
