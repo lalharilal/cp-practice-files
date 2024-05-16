@@ -1831,6 +1831,9 @@ body{
     display: none;
     
 }
+.mobile-icons{
+    display: none;
+}
 @media(max-width:1200px){
     .tab-icons{
         width: 60%;
@@ -2124,5 +2127,236 @@ body{
         margin-top: 10px;
         display: flex;
         flex-direction: column;
+    }
+}
+@media(max-width:600px){
+    .mobile-icons{
+        width: 30%;
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        justify-content: space-evenly;
+    }
+    .tab-dropdown{
+        display: flex;
+    }
+    .logo{
+        width: 120px;
+    }
+    .tab-icons{
+        display: none;
+    }
+    .sub-div{
+        height: 100%;
+        width: 100%;
+        margin-left: 20px;
+        background-color: #fafdfc90;
+    }
+    .poster-p1{
+        font-size: 15px;
+    }
+    .poster-p2{
+        font-size: 18px;
+    }
+    .poster-p3{
+        font-size: 16px;
+    }
+    .poster-p4{
+        font-size: 15px;
+    }
+    .poster-b{
+        width: 40%;
+        height: 15%;
+    }
+    .block-1{
+        height: 100%;
+        width: 100%;
+        /* background-color: #239799; */
+    }
+    .block-1-sub{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .b1-c1{
+        width: 85%;
+        height: 180px;
+    }
+    .b1-c2{
+        width: 85%;
+        height: 180px;
+    }
+    .block-2{
+        height: 100%;
+        width: 100%;
+    }
+    .block-2-sub{
+        height: 100%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fv{
+        width: 92%;
+    }
+    .block-3-sub{
+        width: 85%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .bwo-sub-a{
+        width:12%;
+    }
+    .b4-c1-div1-sub1-p1{
+        font-size: 25px;
+    }
+    .b4-c1-div1-sub1-p22{
+        font-size: 15px;
+    }
+    .b4-c1-div1-sub1-p33{
+        font-size: 10px;
+    }
+    .b4-c1-div1-sub1-p2{
+        font-size: 25px;
+    }
+    .b4-c1-div1-sub1-p222{
+        font-size: 15px;
+    }
+    .b4-c1-div1-sub1-p333{
+        font-size: 10px;
+    }
+    .b4-c1-div1-sub1-p3{
+        font-size: 25px;
+    }
+    .b4-c1-div1-sub1-p2222{
+        font-size: 15px;
+    }
+    .b4-c1-div1-sub1-p3333{
+        font-size: 10px;
+    }
+    .b4-c1-div2 button{
+        padding: 8px 35px;
+    }
+    .bwo{
+        height: 60px;
+    }
+    .block-5-div2-text{
+        display: flex;
+        margin: 10px;
+        font-size: 15px;
+    }
+    .block-5-div2-timer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .block-5-sub{
+        width: 100%;
+        height: 100%;
+    }
+    .block-5-div1{
+        width: 85%;
+        height: 100%;
+    }
+    .block-5-div1-sub{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .b5-c1{
+        width: 90%;
+    }
+    .offer-box-sub h1{
+        font-size: 25px;
+    }
+    .offer-box-span{
+        font-size: 20px;
+    }
+    .banner{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-sub{
+        width: 85%;
+        height: 100%;
+        gap: 25px;
+    }
+    .banner-sub-div1{
+        width: 100%;
+        height: 200px;
+    }
+    .banner-sub-div1-sub{
+        width: 90%;
+        height: 85%;
+    }
+    .banner-sub-div1-sub h1{
+        font-size: 20px;
+    }
+    .banner-sub-div2{
+        width: 350px;
+        height: 100%;
+    }
+    .poster-b{
+        height: 25%;
+    }
+    .banner-sub-div2{
+        width: 100%;
+        height: 200px;
+    }
+    .banner-sub-div2-sub{
+        width: 90%;
+        height: 85%;
+    }
+    .banner-sub-div2-sub h1{
+        font-size: 15px;
+    }
+    .banner-sub-div2-sub p{
+        font-size: 12px;
+    }
+    .poster-2-div1{
+        width: 100%;
+        height: 250px;
+        background-position: 80%;
+        background-repeat: no-repeat;
+    }
+    .poster-2-div1-sub{
+        height: 85%;
+        width: 95%;
+    }
+    .poster-2-div2 {
+        height: 240px;
+    }
+    .services{
+        height: 100%;
+        width: 100%;
+    }
+    .services-sub{
+        height: 650px;
+        width: 85%;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        height: 160vh;
+    }
+    .main-footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sub-footer p{
+        font-size: 10px;
     }
 }
