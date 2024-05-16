@@ -2350,13 +2350,17 @@ body{
         grid-template-columns: repeat(1,1fr);
     }
     .footer{
-        height: 160vh;
+        height: 150vh;
     }
     .main-footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-bottom:20px ;
     }
     .sub-footer p{
         font-size: 10px;
+    }
+    .sub-footer{
+        height: 5px;
     }
 }
