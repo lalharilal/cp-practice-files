@@ -2356,7 +2356,7 @@ body{
         height: 150vh;
     }
     .main-footer{
-        height: 90%;
+        height: 93%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin-bottom:20px ;
